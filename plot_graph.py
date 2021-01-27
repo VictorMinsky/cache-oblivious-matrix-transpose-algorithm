@@ -6,7 +6,6 @@ size_data = [int(i.split()[0].strip()) for i in data]
 naive_time_data = [float(i.split()[1].strip()) for i in data]
 cache_oblivious_time_data = [float(i.split()[2].strip()) for i in data]
 
-# line 1 points
 x1 = size_data
 y1 = naive_time_data
 plt.plot(x1, y1, label="Naive")
